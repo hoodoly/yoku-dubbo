@@ -13,7 +13,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
@@ -28,8 +27,7 @@ import java.util.Map;
 @Configuration
 @EnableAutoConfiguration
 @EnableConfigurationProperties(DubboProperties.class)
-@ConditionalOnProperty(prefix = "demo", value = "enabled", matchIfMissing = true)
-@ComponentScan(basePackages = "com.app")
+@ConditionalOnProperty(prefix = "double", value = "enabled", matchIfMissing = true)
 public class ProviderAutoConfiguration {
 
     @Autowired
