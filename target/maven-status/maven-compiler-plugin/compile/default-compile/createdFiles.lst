@@ -1,0 +1,16 @@
+com/dubbo/command/DubboServiceEvent.class
+com/dubbo/resolver/DubboConsumerResolver.class
+META-INF/spring-configuration-metadata.json
+com/dubbo/config/RpcConsumerAutoConfiguration$1$1.class
+com/dubbo/properties/DubboProperties.class
+com/dubbo/annotation/Provider.class
+com/dubbo/command/DubboServiceLatchCommandLineRunner.class
+com/dubbo/config/ConsumerAutoCofiguration.class
+com/dubbo/config/ProviderAutoConfiguration.class
+com/dubbo/config/RpcConsumerAutoConfiguration.class
+com/dubbo/resolver/SpringConsumerResolver.class
+com/dubbo/resolver/ConsumerResolver.class
+com/dubbo/command/DubboServiceListener.class
+com/dubbo/annotation/Consumer.class
+com/dubbo/config/DubboBaseAutoConfiguration.class
+com/dubbo/config/RpcConsumerAutoConfiguration$1.class
