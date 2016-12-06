@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d661f05f-6568-459f-9f2b-fb9d14942ec0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dubbo/command/DubboServiceLatchCommandLineRunner.class" afterPath="$PROJECT_DIR$/target/classes/com/dubbo/command/DubboServiceLatchCommandLineRunner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dubbo/config/ConsumerAutoCofiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/dubbo/config/ConsumerAutoCofiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dubbo/config/DubboBaseAutoConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/dubbo/config/DubboBaseAutoConfiguration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dubbo/config/ProviderAutoConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/dubbo/config/ProviderAutoConfiguration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-boot-starter-yoku-dubbo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/spring-boot-starter-yoku-dubbo-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceLatchCommandLineRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceLatchCommandLineRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="spring-boot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,20 +44,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/resolver/ConsumerResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,21 +86,36 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="e#752#753#0" expanded="true" />
                 <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProviderAutoConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProviderAutoConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83365947">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DubboProperties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/properties/DubboProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.4049587">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1393#1394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,22 +124,10 @@
         <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/config/ServiceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+              <caret line="119" column="46" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="46" />
               <folding>
                 <element signature="e#22968#22969#0" expanded="true" />
                 <element signature="e#22998#22999#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringConsumerResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/resolver/SpringConsumerResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="48" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="48" />
+              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,9 +215,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/RpcConsumerAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceLatchCommandLineRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java" />
       </list>
     </option>
   </component>
@@ -1012,12 +1002,12 @@
       <workItem from="1480927653261" duration="4721000" />
       <workItem from="1480986940832" duration="7551000" />
       <workItem from="1481012462333" duration="3521000" />
-      <workItem from="1481016759915" duration="3213000" />
+      <workItem from="1481016759915" duration="4802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104794000" />
+    <option name="totallyTimeSpent" value="106383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1030,7 +1020,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1081,20 +1071,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/util/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/config/AbstractInterfaceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="12.552743">
@@ -1307,17 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/properties/DubboProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.444445">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-          <folding>
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/util/SocketUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14049587">
@@ -1339,17 +1304,6 @@
         <state vertical-scroll-proportion="0.1330724">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,31 +1341,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.1.RELEASE/spring-boot-1.4.1.RELEASE-sources.jar!/org/springframework/boot/CommandLineRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43444228">
           <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,25 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6320939">
           <caret line="230" column="26" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceLatchCommandLineRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1466,10 +1381,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/util/EventObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.39726028">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40117416">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2994129">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/com/alibaba/dubbo/config/ServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="46" />
           <folding>
             <element signature="e#22968#22969#0" expanded="true" />
             <element signature="e#22998#22999#0" expanded="true" />
@@ -1477,11 +1416,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceLatchCommandLineRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/command/DubboServiceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/ConsumerAutoCofiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/ProviderAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83365947">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/config/DubboBaseAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dubbo/properties/DubboProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4049587">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

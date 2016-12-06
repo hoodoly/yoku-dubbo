@@ -86,13 +86,13 @@ public class ConsumerAutoCofiguration {
     }
 
     @Bean
-    @ConditionalOnProperty(value = "dubbo.module", havingValue = "true", matchIfMissing = true)
+    @ConditionalOnProperty(value = "dubbo.service", havingValue = "true", matchIfMissing = true)
     public ConsumerResolver springConsumerResolver(ApplicationContext applicationContext) {
         return new SpringConsumerResolver(applicationContext);
     }
 
     @Bean
-    @ConditionalOnProperty(value = "dubbo.module", havingValue = "false")
+    @ConditionalOnProperty(value = "dubbo.service", havingValue = "false")
     public DubboConsumerResolver dubboConsumerResolver(ApplicationContext applicationContext,
                                                        ApplicationConfig applicationConfig,
                                                        RegistryConfig registryConfig,

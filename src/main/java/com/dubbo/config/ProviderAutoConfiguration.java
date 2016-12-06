@@ -27,7 +27,7 @@ import java.util.Map;
 @Configuration
 @EnableAutoConfiguration
 @EnableConfigurationProperties(DubboProperties.class)
-@ConditionalOnProperty(value = "dubbo.module", havingValue = "false", matchIfMissing = true)
+@ConditionalOnProperty(value = "dubbo.service", havingValue = "true", matchIfMissing = true)
 public class ProviderAutoConfiguration {
 
     @Autowired
