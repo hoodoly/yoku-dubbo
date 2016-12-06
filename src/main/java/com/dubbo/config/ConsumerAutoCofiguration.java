@@ -36,15 +36,6 @@ public class ConsumerAutoCofiguration {
     @Autowired
     private ApplicationContext applicationContext;
 
-    @Bean
-    @ConditionalOnProperty(value = "dubbo.module", havingValue = "true")
-    public DubboConsumerResolver dubboConsumerResolver(ApplicationContext applicationContext,
-                                                          ApplicationConfig applicationConfig,
-                                                          RegistryConfig registryConfig,
-                                                          ConsumerConfig consumerConfig) {
-        return new DubboConsumerResolver(registryConfig, consumerConfig, applicationConfig, applicationContext);
-    }
-
     @Bean(name = "consumer-bean-processor")
     public BeanPostProcessor beanPostProcessor() {
         return new BeanPostProcessor() {
@@ -95,8 +86,17 @@ public class ConsumerAutoCofiguration {
     }
 
     @Bean
-    @ConditionalOnProperty(value = "dubbo.module", havingValue = "false", matchIfMissing = true)
+    @ConditionalOnProperty(value = "dubbo.module", havingValue = "true", matchIfMissing = true)
     public ConsumerResolver springConsumerResolver(ApplicationContext applicationContext) {
         return new SpringConsumerResolver(applicationContext);
+    }
+
+    @Bean
+    @ConditionalOnProperty(value = "dubbo.module", havingValue = "false")
+    public DubboConsumerResolver dubboConsumerResolver(ApplicationContext applicationContext,
+                                                       ApplicationConfig applicationConfig,
+                                                       RegistryConfig registryConfig,
+                                                       ConsumerConfig consumerConfig) {
+        return new DubboConsumerResolver(registryConfig, consumerConfig, applicationConfig, applicationContext);
     }
 }

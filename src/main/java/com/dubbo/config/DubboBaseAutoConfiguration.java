@@ -139,11 +139,7 @@ public class DubboBaseAutoConfiguration {
         log.info("module     --> {}", appName);
         log.info("port       --> {}", dubboProperties.getPort());
         log.info("registry   --> {}", getAddress());
-        log.info("threads    --> {}", dubboProperties.getThreads());
-        log.info("timeout    --> {}", dubboProperties.getTimeout());
-        log.info("heartBeats --> {}", dubboProperties.getHeartBeats());
         log.info("host       --> {}", dubboProperties.getHost());
-        log.info("serialization --> {}", dubboProperties.getSerialization());
         log.info("version    --> {}", dubboProperties.getVersion());
         return new DubboServiceListener(appName);
     }
