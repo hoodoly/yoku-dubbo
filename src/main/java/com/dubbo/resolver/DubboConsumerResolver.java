@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/14
  */
 public class DubboConsumerResolver implements ConsumerResolver{

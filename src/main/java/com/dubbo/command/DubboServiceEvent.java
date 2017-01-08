@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationEvent;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/14
  */
 public class DubboServiceEvent extends ApplicationEvent {

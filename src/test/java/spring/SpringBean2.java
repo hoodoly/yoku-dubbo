@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/19
  */
 @Component

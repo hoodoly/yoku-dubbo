@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/8
  */
 
