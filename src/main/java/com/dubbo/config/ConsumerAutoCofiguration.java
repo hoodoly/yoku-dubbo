@@ -22,7 +22,7 @@ import java.lang.reflect.Field;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/14
  */
 @SuppressWarnings("SpringJavaAutowiringInspection")

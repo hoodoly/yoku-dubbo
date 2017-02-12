@@ -22,7 +22,7 @@ import java.net.UnknownHostException;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/9
  */
 @SuppressWarnings("SpringJavaAutowiringInspection")

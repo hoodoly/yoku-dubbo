@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/19
  */
 public class SpringBean implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, BeanPostProcessor, DisposableBean, InitializingBean {

@@ -10,7 +10,7 @@ import org.springframework.context.ApplicationListener;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/14
  */
 public class DubboServiceListener implements ApplicationListener, ApplicationContextAware {

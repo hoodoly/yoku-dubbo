@@ -4,7 +4,7 @@ import com.dubbo.annotation.Consumer;
 
 /**
  * Desc:
- * Author: <a href="xiahj@terminus.io">xiahj</a>
+ * Author:
  * Date: 2016/11/14
  */
 public interface ConsumerResolver {
