@@ -38,6 +38,7 @@ public class DubboConsumerResolver implements ConsumerResolver{
     public <T> T resolve(Class<T> interfaceClazz, Consumer consumer) throws Exception {
 
         ReferenceBean consumerBean = getComsumerBean(interfaceClazz, consumer);
+        //调用dubbo afterPropertiesSet方法获取对应的Bean
         consumerBean.afterPropertiesSet();
         return (T) consumerBean.getObject();
     }
